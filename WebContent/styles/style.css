@@ -1,0 +1,171 @@
+header {
+    top: 0%;
+    background-color: #20488c;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-family: Calibri;
+}
+
+footer {
+    bottom: 0%;
+    background-color: #979ba1;
+    min-width: 100%;
+    position: fixed;
+    left: 0px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    font-family: Calibri Light;
+}
+
+/* movie title */
+span {
+    color: #c4c8cf;
+    top: 13px;
+    margin-left: 20px;
+    font-size: 23px;
+    position: fixed;
+}
+
+/*movie logo  */
+#logo {
+    top: 10px;
+    margin-left: 185px;
+    width: 50px;
+    height: 50px;
+}
+
+/* navigation bar */
+nav a {
+    font-size: 18px;
+    margin-left: 90%;
+    top: 15px;
+    position: fixed;
+    color: #c4c8cf;
+}
+
+/* favorites in navigation bar */
+#favorites {
+    margin-left: 96%;
+}
+
+/*All page heading */
+#heading {
+    margin-top: 6%;
+    margin-left: 5px;
+    color: black;
+    font-family: Calibri;
+    font-size: 30px;
+    position: fixed;
+}
+
+section {
+    margin-left: 10%;
+    margin-top: 10%;
+    position: fixed;
+}
+
+/* td,th right align*/
+.right-text {
+    text-align: right;
+}
+
+/* td,th left align */
+.left-text {
+    text-align: left;
+}
+
+/* td,th */
+.center-text {
+    text-align: center;
+}
+
+th, td {
+    font-family: Calibri;
+}
+
+/* link inside section  */
+section a {
+    color: #000000;
+}
+
+/*form submit button*/
+.submit {
+    background-color: #20488c;
+    border: none;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.checkbox-radio-size {
+    width: 21px;
+    height: 21px;
+}
+
+/*notification message in movie list customer notification page*/
+#movie-added {
+    color: #32c937;
+    font-family: Calibri;
+    position: fixed;
+    margin-left: 8%;
+    top: 19%;
+    font-size: 20px;
+}
+
+/*notification message in favorites  notification page*/
+#movie-removed {
+    color: #32c937;
+    font-family: Calibri;
+    position: fixed;
+    margin-left: 3%;
+    top: 17%;
+    font-size: 20px;
+}
+
+/*  link message in favorites empty file*/
+#link-blue {
+    color: #00a2cf;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+/* notification in favorites empty file  */
+#favorites-empty-notification {
+    color: #979999;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-left: 9px;
+}
+
+/*notificaton in edit status file */
+#movie-saved-successfully {
+    color: #32c937;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* grey colour label in form */
+.grey {
+    color: #888a8c;
+    font-weight: bold;
+}
+
+/*checkbox label align  */
+#has-teasar-align {
+  position: fixed;
+  top: 40.6%;
+}
+
+table {
+		margin-top:3%;
+}
+/*bold for no.of favorites  */
+ .bold {
+	font-weight: bold;
+}
