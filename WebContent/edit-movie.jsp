@@ -14,7 +14,7 @@
     <header> <span>Movie Cruiser</span> <img id="logo" src="images/logo.png" alt="logo" />
     <nav> <a href="ShowMovieListAdmin">Movies</a> </nav> </header>
     <section> <span id="heading">Edit Movie</span>
-    <form action="EditMovie" method="post" name="movieForm" onsubmit="return validMovieForm()">
+    <form action="EditMovie" method="post" name="movieForm" onsubmit="return validateMovieForm()">
         <input type="hidden" name="id" value="${movie.getMovieId()}" />
         <c:set value="${movie}" var="movie"></c:set>
         <table>
