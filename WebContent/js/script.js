@@ -1,6 +1,6 @@
 function validMovieForm() {
     var title = document.forms["movieForm"]["title"].value;
-    var titleRegExp = (/^[A-Z a-z]{2,100}$/);
+    var titleRegExp = (/^[A-Z: a-z]{2,100}$/);
 
     // title validation
     if (title == "") {
