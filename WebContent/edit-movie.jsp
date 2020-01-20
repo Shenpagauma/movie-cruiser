@@ -9,7 +9,7 @@
 <link rel="shortcut icon" href="images/logo.png" />
 <script src="js/script.js"></script>
 </head>
-<body>
+<body> 
     <c:set value="${movie}" var="movie"></c:set>
     <header> <span>Movie Cruiser</span> <img id="logo" src="images/logo.png" alt="logo" />
     <nav> <a href="ShowMovieListAdmin">Movies</a> </nav> </header>

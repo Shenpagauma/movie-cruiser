@@ -11,6 +11,6 @@ public class FavoriteEmptyException extends Exception {
     @Override
     public String toString() {
         return "Favorite is empty";
-    }   
+    }    
 
 }

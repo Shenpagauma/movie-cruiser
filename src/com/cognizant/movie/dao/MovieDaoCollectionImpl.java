@@ -27,7 +27,7 @@ public class MovieDaoCollectionImpl implements MovieDao {
             movieList.add(movie2);
             movieList.add(movie3);
             movieList.add(movie4);
-            movieList.add(movie5);
+            movieList.add(movie5); 
 
         }
     }

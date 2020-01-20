@@ -10,7 +10,7 @@ function validMovieForm() {
     if (!title.match(titleRegExp)) {
         alert("Title should have 2 to 100 characters");
         return false;
-    } 
+    }  
 
     // Gross validation
     var gross = document.forms["movieEdit"]["boxOffice"].value;

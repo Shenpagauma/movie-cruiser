@@ -22,7 +22,7 @@ public class RemoveFavoriteServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        try {
+        try { 
             long userId = 1L;
             long movieId = Long.parseLong(request.getParameter("movieId"));
             FavoriteDao favoriteDao = new FavoriteDaoCollectionImpl();

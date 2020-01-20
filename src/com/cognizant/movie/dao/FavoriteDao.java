@@ -8,5 +8,5 @@ public interface FavoriteDao {
     public void addFavoritesById(long userId, long movieId);
 
     public void removeFavoritesById(long userId, long movieId);
- 
+
 }

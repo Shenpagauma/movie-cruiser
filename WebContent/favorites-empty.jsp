@@ -6,7 +6,7 @@
 <link href="styles/style.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="images/logo.png" />
 </head> 
-<body>
+<body> 
     <header> <span>Movie Cruiser</span> <img id="logo" src="images/logo.png" alt="logo" />
     <nav> <a href="ShowMovieListCustomer">Movies</a> <a href="ShowFavorite" id="favorites">Favorites</a>
     </nav> </header>

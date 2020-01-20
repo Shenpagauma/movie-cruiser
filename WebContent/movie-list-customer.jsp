@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <html>
-<head>
+<head> 
 <title>Customer</title>
 <link href="styles/style.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="images/logo.png" />

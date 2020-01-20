@@ -14,7 +14,7 @@ public class MovieDaoCollectionImplTest {
         testEditMovie();
         testGetMovieListAdmin();
         testGetMovieListCustomer();
-        testGetMovie();
+        testGetMovie(); 
 
     }
 

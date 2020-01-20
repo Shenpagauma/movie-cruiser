@@ -19,7 +19,7 @@ public class FavoriteDaoCollectionImplTest {
         favoriteDao.addFavoritesById(1, 2);// 1 is userId,2 is movieId
         favoriteDao.addFavoritesById(1, 3);// 1 is userId,3 is movieId
     }
- 
+
     public static void testRemoveFavorites() {
         System.out.println("Remove Favorites");
         favoriteDao.removeFavoritesById(1, 3);

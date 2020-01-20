@@ -16,7 +16,7 @@ public class ShowEditMovieServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws ServletException, IOException { 
         Long movieId = Long.parseLong(request.getParameter("movieId"));
         MovieDao movieDao = new MovieDaoCollectionImpl();
         Movie movie = movieDao.getMovieById(movieId);

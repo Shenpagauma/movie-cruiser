@@ -12,5 +12,5 @@
     <section> <span id="heading">Edit Movie Status</span> <br>
     <b id="movie-saved-successfully"> Movie details saved successfully</b> </section>
     <footer> Copyright &copy; 2019 </footer>
-</body>
+</body> 
 </html>

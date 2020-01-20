@@ -24,11 +24,11 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
         if (favorite == null || favorite.getFavoriteList().isEmpty()) {
             throw new FavoriteEmptyException();
         }
-       
-         noOfFavorite = favorite.getFavoriteList().size();
+
+        noOfFavorite = favorite.getFavoriteList().size();
         favorite.setNoOfFavorite(noOfFavorite);
         return favorite;
-  
+
     }
 
     @Override

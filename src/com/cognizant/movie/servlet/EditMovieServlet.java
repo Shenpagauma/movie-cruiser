@@ -28,7 +28,7 @@ public class EditMovieServlet extends HttpServlet {
         boolean active = false;
         boolean hasTeaser = false;
         // Radio Button
-        if (isactive.equals("No")) {
+        if (isactive.equals("No")) { 
             active = false;
         } else {
             active = true;

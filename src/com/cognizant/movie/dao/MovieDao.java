@@ -11,5 +11,5 @@ public interface MovieDao {
 
     public List<Movie> getMovieListAdmin();
 
-    public List<Movie> getMovieListCustomer();
+    public List<Movie> getMovieListCustomer(); 
 }
