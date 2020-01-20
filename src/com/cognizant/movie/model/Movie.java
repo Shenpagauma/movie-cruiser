@@ -14,8 +14,8 @@ public class Movie {
 
     public Movie() {
         // TODO Auto-generated constructor stub
-    } 
-    
+    }
+
     public Movie(long movieId, String title, long boxOffice, boolean active, Date dateOfLaunch,
             String genre, boolean hasTeaser) {
         super();

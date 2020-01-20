@@ -8,13 +8,13 @@ public class Favorite {
 
     public Favorite() {
         // TODO Auto-generated constructor stub
-    } 
+    }
 
     public Favorite(List<Movie> favoriteList, int noOfFavorite) {
         super();
         this.favoriteList = favoriteList;
         this.noOfFavorite = noOfFavorite;
-    }  
+    }
 
     public List<Movie> getFavoriteList() {
         return favoriteList;
