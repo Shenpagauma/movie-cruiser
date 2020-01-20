@@ -30,6 +30,6 @@ public class AddToFavoriteServlet extends HttpServlet {
         request.setAttribute("addFavoriteStatus", true);
         request.setAttribute("movie", movieList);
         request.getRequestDispatcher("movie-list-customer.jsp").forward(request, response);
-    }
+    }   
 
 }

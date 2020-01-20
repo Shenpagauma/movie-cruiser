@@ -11,7 +11,7 @@ import com.cognizant.movie.dao.MovieDao;
 import com.cognizant.movie.dao.MovieDaoCollectionImpl;
 import com.cognizant.movie.model.Movie;
 
-@WebServlet("/ShowEditMovie")
+@WebServlet("/ShowEditMovie") 
 public class ShowEditMovieServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 

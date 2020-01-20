@@ -14,7 +14,7 @@ public class Favorite {
         super();
         this.favoriteList = favoriteList;
         this.noOfFavorite = noOfFavorite;
-    }
+    }  
 
     public List<Movie> getFavoriteList() {
         return favoriteList;

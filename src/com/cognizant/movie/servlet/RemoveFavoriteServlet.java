@@ -15,7 +15,7 @@ import com.cognizant.movie.dao.FavoriteEmptyException;
 import com.cognizant.movie.model.Favorite;
 import com.cognizant.movie.model.Movie;
 
-@WebServlet("/RemoveFavorite")
+@WebServlet("/RemoveFavorite") 
 public class RemoveFavoriteServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 

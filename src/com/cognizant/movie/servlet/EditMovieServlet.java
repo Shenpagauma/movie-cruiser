@@ -33,7 +33,7 @@ public class EditMovieServlet extends HttpServlet {
         } else {
             active = true;
         }
-        // Check Box
+        // Check Box   
         if (isHasTeaser == null) {
             hasTeaser = false;
         } else {

@@ -6,7 +6,7 @@
 <link href="styles/style.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="images/logo.png" />
 </head>
-<body>
+<body> 
     <header> <span>Movie Cruiser</span> <img id="logo" src="images/logo.png" alt="logo" />
     <nav> <a href="ShowMovieListAdmin">Movies</a> </nav> </header>
     <section> <span id="heading">Edit Movie Status</span> <br>

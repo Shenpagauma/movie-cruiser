@@ -16,7 +16,7 @@
     <c:if test="${removeFavoriteItemStatus==true}">
         <b id="movie-removed"> Movie removed from Favorites successfully</b>
     </c:if>
-    <table>
+    <table> 
         <col width="140px" />
         <col width="120px" />
         <col width="120px" />

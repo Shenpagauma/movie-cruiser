@@ -46,7 +46,7 @@
                                 class="checkbox-radio-size" checked>
                             <label for="yes">Yes</label>
                             <input id="no" class="checkbox-radio-size" type="radio" name="active">
-                            <label for="no">No</label>
+                             <label for="no">No</label>
                         </c:when>
                         <c:otherwise>
                             <input type="radio" name="active" id="yes" class="checkbox-radio-size">

@@ -30,7 +30,7 @@
             <th class="center-text">Genre</th>
             <th class="center-text">Has Teaser</th>
             <th class="center-text">Action</th>
-        </tr>
+        </tr> 
 
         <c:forEach items="${movieList}" var="movie">
             <tr>

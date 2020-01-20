@@ -28,7 +28,7 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
          noOfFavorite = favorite.getFavoriteList().size();
         favorite.setNoOfFavorite(noOfFavorite);
         return favorite;
-
+  
     }
 
     @Override
