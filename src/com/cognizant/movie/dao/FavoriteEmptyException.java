@@ -1,6 +1,6 @@
 package com.cognizant.movie.dao;
 
-//Custom Exception ( User Defined Exception)
+//Custom Exception ( User Defined Exception) 
 public class FavoriteEmptyException extends Exception {
 
     /**

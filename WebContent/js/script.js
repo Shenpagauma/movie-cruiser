@@ -1,6 +1,6 @@
-function validF() {
-    var title = document.forms["movieEdit"]["title"].value;
-    var titleRegExp = (/^[A-Za-z]{2,65}$/);
+function validMovieForm() {
+    var title = document.forms["movieForm"]["title"].value;
+    var titleRegExp = (/^[A-Z a-z]{2,100}$/);
 
     // title validation
     if (title == "") {

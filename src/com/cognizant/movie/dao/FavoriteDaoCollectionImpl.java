@@ -8,7 +8,7 @@ import com.cognizant.movie.model.Favorite;
 import com.cognizant.movie.model.Movie;
 
 public class FavoriteDaoCollectionImpl implements FavoriteDao {
-    int total;
+    int noOfFavorite;
     public static HashMap<Long, Favorite> userFavorite; // instance variable
 
     public FavoriteDaoCollectionImpl() {
@@ -24,9 +24,9 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
         if (favorite == null || favorite.getFavoriteList().isEmpty()) {
             throw new FavoriteEmptyException();
         }
-        // List<Movie> movie = favorite.getFavoriteList();
-        total = favorite.getFavoriteList().size();
-        favorite.setTotal(total);
+       
+         noOfFavorite = favorite.getFavoriteList().size();
+        favorite.setNoOfFavorite(noOfFavorite);
         return favorite;
 
     }

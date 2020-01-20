@@ -21,7 +21,7 @@ public class FavoriteDaoCollectionImplTest {
     }
 
     public static void testRemoveFavorites() {
-        /* System.out.println("Remove Favorites"); */
+        System.out.println("Remove Favorites");
         favoriteDao.removeFavoritesById(1, 3);
         System.out.println("Favorites Removed");
     }
@@ -29,13 +29,14 @@ public class FavoriteDaoCollectionImplTest {
     public static void testGetAllFavorites() {
         try {
 
-            System.out.println("Retrieving all the items from cart");
+            System.out.println("Retrieving all the favorites");
             List<Movie> list = favoriteDao.getAllFavorites(1).getFavoriteList();
             for (Movie movie : list) {
                 System.out.println(movie);
 
             }
-            System.out.println("No of favorites: "+favoriteDao.getAllFavorites(1).getTotal());
+            System.out.println(
+                    "No of favorites: " + favoriteDao.getAllFavorites(2).getNoOfFavorite());
         } catch (FavoriteEmptyException e) {
             System.out.println(e);
         }
