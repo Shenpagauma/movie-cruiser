@@ -14,7 +14,7 @@ public class MovieDaoCollectionImplTest {
         testEditMovie();
         testGetMovieListAdmin();
         testGetMovieListCustomer();
-        testGetMovie(); 
+        testGetMovie();
 
     }
 
@@ -44,7 +44,7 @@ public class MovieDaoCollectionImplTest {
         for (Movie movies : movie) {
             System.out.println(movies);
         }
-    } 
+    }
 
     public static void testGetMovie() {
         System.out.println("\n Menu Item");

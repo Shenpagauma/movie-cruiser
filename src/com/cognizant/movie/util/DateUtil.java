@@ -12,7 +12,7 @@ public class DateUtil {
             return format.parse(userDate); // Converts from String to Date
         } catch (ParseException e) {
             System.out.println("Data Went Wrong!");
-        } 
+        }  
 
         return null; // never get executed
 

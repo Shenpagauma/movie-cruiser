@@ -9,7 +9,7 @@ import com.cognizant.movie.util.DateUtil;
 
 public class MovieDaoCollectionImpl implements MovieDao {
     public static List<Movie> movieList; // instance variable
-
+ 
     public MovieDaoCollectionImpl() {
         if (movieList == null || movieList.isEmpty()) {
             Movie movie1 = new Movie(1, "Avatar", 2787965087L, true,

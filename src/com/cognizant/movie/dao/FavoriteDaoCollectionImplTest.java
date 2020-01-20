@@ -1,6 +1,6 @@
 package com.cognizant.movie.dao;
 
-import java.util.List;
+import java.util.List; 
 
 import com.cognizant.movie.model.Movie;
 
